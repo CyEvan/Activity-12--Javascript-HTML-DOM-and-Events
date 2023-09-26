@@ -1,0 +1,114 @@
+/* Div Container */
+.idapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #2a3cc1;
+    background-color: #afb8ff;
+
+}
+
+/* Text line in task input */
+.done {
+    text-decoration: line-through;
+}
+
+/* Tasklist text */
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    color: #322d5ca3;
+    margin-top: 2vw;
+}
+
+/* Add Task input */
+#taskInput{
+    border-radius: 20px;
+    border: 1px solid transparent;
+    outline: none;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    width: 100%;
+}
+#taskInput:focus{
+    border: 1px solid #2a3cc1;);
+}
+
+/*add task button */
+
+#addTaskButton{
+    color: #322d5ca3;
+    background: #ffffff ;
+    border-radius: 20px;
+    border: none ;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;   
+}
+#addTaskButton:hover{
+    background: #322d5ca3;
+    transition: all ease 0.3s;
+}
+
+/* list items */
+li{
+    display: block;
+    margin: 5px auto;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width:max-content;
+    font-size:  15px;
+    color: #322d5ca3;
+}
+
+/* delete button */
+#deleted {
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgb(253, 253, 253);
+    border: none;
+    padding: 10px 20px;
+    background: #322d5ca3;;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#deleted:hover {
+    color: white;
+    border: none;
+    background: #2a3cc1;
+    transition: all ease 0.3s;
+}
+
+@media only screen and (min-width: 400px) {
+    #idapp{
+        width: 50%;
+        margin: ;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #taskInput{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #taskInput{
+        width: 70%;
+    }
+}
